@@ -8,8 +8,8 @@
          location = "group:Projects"
          name = "Projects">
          <Group
-            location = "group:ProjetsSubGroup"
-            name = "ProjetsSubGroup">
+            location = "group:ProjectSubGroup"
+            name = "ProjectSubGroup">
             <FileRef
                location = "group:FileInProjectSubGroup.swift">
             </FileRef>
@@ -21,6 +21,9 @@
       <Group
          location = "group:Dependencies"
          name = "Dependencies">
+         <FileRef
+            location = "group:../SubLevelFolder/fileInSubLevelFolder.swift">
+         </FileRef>
       </Group>
       <FileSystemSynchronizedGroup
          location = "group:SubLevelFolder"

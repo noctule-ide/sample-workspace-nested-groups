@@ -75,6 +75,7 @@
 		77471BB3300128B00015D012 = {
 			isa = PBXGroup;
 			children = (
+				77D0B3E83001799E0086F1D5 /* iOS-app-Group */,
 				77471BBE300128B00015D012 /* iOS-app */,
 				77471BCC300128B10015D012 /* iOS-appTests */,
 				77471BD6300128B10015D012 /* iOS-appUITests */,
@@ -90,6 +91,13 @@
 				77471BD3300128B10015D012 /* iOS-appUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		77D0B3E83001799E0086F1D5 /* iOS-app-Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iOS-app-Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +205,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				77471BE6300128DA0015D012 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				77D0B3E73001797D0086F1D5 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 77471BBD300128B00015D012 /* Products */;
@@ -581,6 +590,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.6.0;
+			};
+		};
+		77D0B3E73001797D0086F1D5 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
