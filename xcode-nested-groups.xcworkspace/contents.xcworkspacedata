@@ -7,6 +7,13 @@
       <Group
          location = "group:Projects"
          name = "Projects">
+         <Group
+            location = "group:ProjetsSubGroup"
+            name = "ProjetsSubGroup">
+            <FileRef
+               location = "group:FileInProjectSubGroup.swift">
+            </FileRef>
+         </Group>
          <FileRef
             location = "container:iOS/iOS-app/iOS-app.xcodeproj">
          </FileRef>
