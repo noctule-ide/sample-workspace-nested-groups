@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:TopLevelGroup"
+      name = "TopLevelGroup">
+      <Group
+         location = "group:Projects"
+         name = "Projects">
+         <FileRef
+            location = "container:iOS/iOS-app/iOS-app.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Dependencies"
+         name = "Dependencies">
+      </Group>
+      <FileSystemSynchronizedGroup
+         location = "group:SubLevelFolder"
+         name = "SubLevelFolder">
+      </FileSystemSynchronizedGroup>
+   </Group>
+</Workspace>
